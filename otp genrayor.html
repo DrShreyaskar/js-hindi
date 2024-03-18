@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>OTP GENERATOR</h1>
+    <input type="submit" value="generateOTP" id="generateBtn" ><br>
+    <input type="text" id="otpDisplay" ></input>
+
+    <script>
+    let generateOTP = (eve) =>{
+        // const otpLength = 6;
+        // const otp = Math.floor(100000 + Math.random() * 900000);
+        // document.getElementById("otpDisplay").innerText = '${otp}';
+        console.log(eve);
+    }
+    document
+       .getElementById("generateBtn")
+       .addEventListener("click", generateOTP(even));
+    //    window.addEventListener("load", generateOTP());
+</script>
+    
+</body>
+</html>
